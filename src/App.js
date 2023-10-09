@@ -10,7 +10,7 @@ function App() {
   const [enabled, setEnabled] = useState(false);
 
   return (
-    <div>
+    <>
        <Container>
           <Heading classroom='66i' enable={enabled} />
           <Subheading></Subheading>
@@ -21,7 +21,7 @@ function App() {
           </div>
           <FormTask></FormTask>
        </Container>
-    </div>
+    </>
   );
 }
 

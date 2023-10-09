@@ -3,9 +3,10 @@ import Status from './Status';
 
 const Heading = (props) => {
    /*  console.log(props);
-    const {classroom, enable} = props
-    console.log(classroom, enable); */
 
+    const {classroom, enable} = props
+    console.log(classroom, enable);
+ */
     return (
         <div>
             <h1 className='display-4 text-center'>Lista de Tareas {props.classroom}</h1>
